@@ -15,6 +15,24 @@
         <module>statistics-service</module>
         <module>statistics-api</module>
     </modules>
+    
+    <dependencies>
+        <dependency>
+            <groupId>com.zwq</groupId>
+            <artifactId>member-api</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.zwq</groupId>
+            <artifactId>exchange-api</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.zwq</groupId>
+            <artifactId>finance-api</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
 
 
 </project>
